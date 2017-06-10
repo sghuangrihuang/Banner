@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1200px;
+	margin:  0 auto;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.item-container{
+	position: relative;
+}
+.item-box{
+	width: 10000px;
+	position: absolute;
+}
+.item-box .item{
+	float: left;
+	overflow: hidden;
+}
+.item-btnBox .item-btn{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: rgba(0,0,0,.5);
+	border-radius: 50%;
+	cursor:pointer;
+	margin: 0 5px;
+}
+.item-btnBox{
+	overflow: hidden;
+	display: inline-block;
+}
+.item-btnBox .item-btn.active,
+.item-btnBox .item-btn:hover{
+	background: rgba(0,0,0,1);
+}
+

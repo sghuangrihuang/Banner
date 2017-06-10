@@ -1,0 +1,74 @@
+.bann{
+	position: relative;
+	height: 500px;
+}
+.bann ul{
+	width: 400%;
+	position: absolute;
+}
+.bann ul li{
+	position: relative;
+	width: 25%;
+	overflow: hidden;
+	height: 500px;
+	float: left;
+}
+.bann ul li a{
+	position: absolute;
+	width: 1920px;
+	left: 50%;
+	margin-left: -960px;
+}
+.bann ul li a img{
+	display: block;
+	width: 100%;
+	height: 500px;
+}
+.banner_btn .prev{
+	position: absolute;
+	left: 0;
+	width: 15%;
+	display: block;
+	height: 100%;
+	top: 0;
+	cursor: pointer;
+	z-index: 10;
+}
+.banner_btn .next{
+	position: absolute;
+	right: 0;
+	width: 15%;
+	top: 0;
+	display: block;
+	height: 100%;
+	cursor: pointer;
+	z-index: 10;
+}
+.banner .hd{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+}
+.product .hd{
+	width: 100%;
+	text-align: center;
+}
+.product{
+	position: relative;
+}
+.product ul{
+	overflow: hidden;
+}
+.product li{
+	float: left;
+}
+.product li img{
+	width: 100%;
+	display: block;
+}
+.product .list{
+	position: relative;
+	overflow: hidden;
+}

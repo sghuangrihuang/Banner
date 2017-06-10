@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/jQuery.banner.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/jQuery.Banner.js"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="hd"></div>
+        <div class="bann item-container">
+            <ul class="item-box">
+                <li class="item">
+                    <a><img src="images/banner1.jpg"></a>
+                </li>
+                <li class="item">
+                    <a><img src="images/banner2.jpg"></a>
+                </li>
+                <li class="item">
+                    <a><img src="images/banner3.jpg"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="banner_btn">
+            <a class="prev"></a>
+            <a class="next"></a>
+        </div>
+    </div>
+    <div class="product">
+        <div class="container">
+            <div class="hd"></div>
+            <div class="list item-container">
+                <ul class="item-box">
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a>
+                            <img src="images/1.jpg">
+                        </a>
+                    </li>
+                </ul>   
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(".banner").Banner({
+        "pagination": ".banner .hd",
+        "autoPlay": true,
+        "speed": 600,
+        "delay": 3000,
+        "nextButton": ".banner .next",
+        "prevButton": ".banner .prev"
+    });
+
+    $(".product").Banner({
+        "pagination": ".product .hd",
+        "autoPlay": true,
+        "speed": 500,
+        "delay": 2500,
+        "view":8,
+        "spaceBetween":20, 
+        "prevButton":".Btnprev",
+        "nextButton":".Btnnext",
+        "group":1,
+    });
+    </script>
+</body>
+
+</html>
